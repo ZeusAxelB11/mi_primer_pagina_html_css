@@ -1,2 +1,2 @@
-# practica1-zeus-bustos
-PRACTICA 1 DEL TEMA DE LA MATERIA DE PROGRAMACION DE CLIENTE EN AMBIENTE SERVIDOR
+# Tarea
+Creacion de una pagina en la cual se hara un cuadro con las caractyeristicas de la imagen
