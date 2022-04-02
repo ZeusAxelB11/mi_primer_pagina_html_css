@@ -1,67 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea en HTML5</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="contenedor">
-        <header>
-            <h1>HTML Y CSS MATERIA ITVO</h1>
-        </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarea en HTML5</title>
+        <link rel="stylesheet" href="style.css"> <!--Referencia al archivo Style-->
+    </head>
+    <body>
+        <div id="contenedor">
+            <!--Titulo de la pagina-->
+            <header>
+                <h1>Mi primer página en HTML5 y CSS</h1>
+            </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li>
-                    <a target="_blank" href="https://zeusssza.wixsite.com/blogauditoria">Blog</a>
-                </li>
-                <li>
-                    <a href="https://github.com/ZeusAxelB11">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <!--Boton que nos manda a Github-->
+                    <li><a href="https://github.com/ZeusAxelB11">GitHub</a></li>
+                    <li><a href="https://github.com/ZeusAxelB11">Compartir</a></li>
+                    <!--Boton que nos manda a un pdf del temario-->
+                    <li><a href="http://ith.mx/documentos/reticulas/informatica/Semestre%207/IFF-1019-Programacion%20en%20ambiente%20cliente%20servidor.pdf">Temario</a></li>
+                </ul>
+            </nav>
 
-        <div class="salto"></div>
+            <!--Contenido de la pagina-->
+            <div class="salto"></div>
 
-        <section id="contenido">
-            <article>
-                <h2>Tema 1</h2>
-                <p>El inicio de 3 guerra mundial</p>
-            </article>
+            <section id="contenido">
+                <article>
+                    <h2>Unidad 1</h2> <!--Subtitulo 2-->
+                    <p>Contexto de programación cliente/servidor</p> <!--Subtitulo 3-->
+                </article>
 
-            <article>
-                <h2>Tema 2</h2>
-                <p>Memes de la 3 guerra mundial</p>
-            </article>
+                <article>
+                    <h2>Unidad 2</h2>
+                    <p>Programación C/S de bajo nivel</p>
+                </article>
 
-            <article>
-                <h2>Tema 3</h2>
-                <p>Call of Duty ya tendra nuevo contenido!</p>
-            </article>
+                <article>
+                    <h2>Unidad 3</h2>
+                    <p>Remote Method Invocation</p>
+                </article>
+                <article>
+                    <h2>Unidad 4</h2>
+                    <p>Component Object Model/Distributed COM</p>
+                </article>
 
-            <article>
-                <h2>Tema 4</h2>
-                <p>Agradecido de no vivir en estos momentos en Europa</p>
-            </article>
-        </section>
+                <!--Barra lateral-->
+            </section>
+            <aside>
+                <!--Barra Search-->
+                <h2>Buscador</h2>
+                <form>
+                    <input type="search" name="" id="">
+                    <input type="button" value="Ir"> <!--Boton de IR-->
+                </form>
+            </aside>
 
-        <aside>
-            <h2>Barra Lateral</h2>
-            <form>
-                <input type="search" name="" id="">
-                <input type="button" value="Buscar">
-            </form>
-        </aside>
+            <div class="salto"></div>
 
-        <div class="salto"></div>
-
-        <footer>
-            Zeus Axel Bustos Alavez &copy; 2022
-        </footer>
-    </div>
+            <!--Pie de la pagina-->
+            <footer>Zeus Axel Bustos Alavez &copy; 2022</footer>
+        </div>
     </body>
-    </html>
+</html>
